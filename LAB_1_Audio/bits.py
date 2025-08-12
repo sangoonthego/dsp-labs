@@ -1,6 +1,6 @@
 import wave
 
-file_path = "test.wav"
+file_path = "konnachiwa.wav"
 
 with wave.open(file_path, "rb") as file:
     samples = file.getsampwidth()

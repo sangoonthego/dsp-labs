@@ -1,7 +1,7 @@
 import numpy as np
 import librosa
 
-file_path = "test.wav"
+file_path = "konnachiwa.wav"
 
 # read file
 y, sr = librosa.load(file_path, sr=None, mono=True)

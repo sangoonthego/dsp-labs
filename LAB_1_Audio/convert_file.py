@@ -1,8 +1,8 @@
 from pydub import AudioSegment
 import os
 
-input_file = "test.m4a"
-output_file = "test.wav"
+input_file = "konnichiwa.m4a"
+output_file = "konnachiwa.wav"
 
 if not os.path.exists(input_file):
     raise FileNotFoundError(f"File Not Found!!!")
